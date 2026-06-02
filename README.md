@@ -22,9 +22,8 @@ Open notebooks/03_cleaning.ipynb → Cell → Run All to reproduce data.
 
 ## Results
 
-**Volume reconciliation (images/reconciliation.png)
-**Rejection reasons (images/rejection_reasons.png)
-**Field cleansing (field_cleansing.png)
+
+![Volume reconciliation output](images/reconciliation.png)
 
 | | Count |
 |---|---:|
@@ -32,6 +31,9 @@ Open notebooks/03_cleaning.ipynb → Cell → Run All to reproduce data.
 | Duplicates removed | 8,329 |
 | Records loaded | 90,990 (96.7%) |
 | Records rejected | 3,121 (3.3%) |
+
+
+![Field-level cleansing output](images/field_cleansing.png)
 
 **Field-level cleansing:**
 
@@ -43,6 +45,10 @@ Open notebooks/03_cleaning.ipynb → Cell → Run All to reproduce data.
 - 3,099 missing + 999 negative credit limits repaired to 0
 - 2,050 out-of-range ages nulled
 - 1,191 ambiguous gender codes nulled
+
+
+![Top rejection reasons](images/rejection_reasons.png)
+
 
 **Top rejection reasons:** missing first_name (975, 31.2%), missing last_name (972, 31.1%), R1 contactability failure (678, 21.7%), R3 missing country (464, 14.9%)
 
