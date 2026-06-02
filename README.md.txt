@@ -22,7 +22,9 @@ Open notebooks/03_cleaning.ipynb → Cell → Run All to reproduce data.
 
 ## Results
 
-**Volume reconciliation (balanced):**
+**Volume reconciliation (images/reconciliation.png)
+**Rejection reasons (images/rejection_reasons.png)
+**Field cleansing (field_cleansing.png)
 
 | | Count |
 |---|---:|
